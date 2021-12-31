@@ -1,0 +1,108 @@
+/* Navigation */
+.nav-heading {
+  color: white;
+  font-size: 22px;
+}
+.header-background {
+  background: linear-gradient(253deg, #303f60, #1a253c);
+  background-color: var(--primary-col);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 464px;
+  width: 100%;
+  max-width: 100vw;
+  z-index: -999;
+}
+.header-sm {
+  height: 210px !important;
+}
+nav {
+  background-color: transparent;
+  height: 70px;
+  max-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid white;
+  width: 100%;
+  justify-content: stretch;
+}
+nav .nav-heading,
+nav .nav-actions {
+  flex-basis: 50%;
+}
+.nav-actions {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  align-items: center;
+}
+.nav-head-span {
+  color: var(--secondary-col);
+}
+.bav-login-btn {
+  background: transparent;
+  border: 1px solid var(--secondary-col);
+}
+.loggedInActions {
+  display: flex;
+  flex-direction: row;
+}
+.nav-post-job-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  height: 100%;
+  margin-right: 47px;
+  color: white;
+}
+.nav-post-job-btn.selected {
+  border-bottom: 2px solid var(--secondary-col);
+}
+.profile-circle {
+  color: var(--primary-col);
+  background: var(--profile-col);
+  border-radius: 50%;
+  height: 46px;
+  width: 46px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8.66px;
+}
+
+.profile-dropdown {
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  height: 36px;
+  width: 112px;
+  border-radius: 5px;
+  top: 70px;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  text-decoration: none;
+}
+.dropdown-show {
+  display: flex !important;
+  align-items: center;
+}
+.dropdown-content a {
+  width: 100%;
+  text-decoration: none !important;
+}
+.dropdown-content li {
+  font-size: 14px;
+  color: var(--primary-col);
+  list-style: none;
+}

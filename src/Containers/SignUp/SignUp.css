@@ -1,0 +1,94 @@
+/* @import "../../App.css"; */
+
+/* signup page */
+.signup-box {
+  height: 711px;
+  width: 557px;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+}
+#SignupForm .first-row {
+  margin-top: 74px !important;
+}
+#SignupForm .form-row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+#SignupForm .form-extra-actions-row {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.password-row {
+  flex-direction: row !important;
+}
+.password-row .createpass,
+.password-row .confirmpass {
+  flex-basis: 50%;
+}
+.createpass {
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.confirmpass {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.recruiter-checkbox,
+.candidate-checkbox {
+  position: relative;
+}
+.recruiter-checkbox input,
+.candidate-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.recruiter-checkbox span,
+.candidate-checkbox span {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  height: 46px;
+  width: 136px;
+  background-color: var(--input-background);
+  border-radius: 5px;
+  border: 1px solid var(--input-nofocus);
+  color: var(--secondary-col);
+  display: flex;
+  align-items: center;
+  padding-left: 17px;
+}
+.candidate-checkbox span {
+  left: 186px !important;
+}
+.recruiter-checkbox span p,
+.candidate-checkbox span p {
+  color: var(--primary-col);
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.recruiter-checkbox input:checked ~ span,
+.candidate-checkbox input:checked ~ span,
+.recruiter-checkbox input:checked ~ span p,
+.candidate-checkbox input:checked ~ span p {
+  background-color: var(--secondary-col);
+  color: white;
+}
+.recruiter-checkbox:hover,
+.candidate-checkbox:hover {
+  cursor: pointer;
+  background-color: var(--input-nofocus);
+}

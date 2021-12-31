@@ -1,0 +1,31 @@
+.postjob-box {
+  width: 557px;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 234px;
+}
+#JobForm .form-row {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+#JobForm textarea {
+  height: 110px;
+  border-radius: 5px;
+  padding: 15px 17px;
+  border: 1px solid var(--input-nofocus);
+  background-color: var(--input-background);
+  margin-top: 8px;
+}
+#JobForm textarea::placeholder {
+  color: var(--primary-col);
+  opacity: 40%;
+  font-size: 14px;
+}
+#JobForm textarea:focus {
+  background-color: var(--input-background);
+  color: var(--primary-col);
+  border: 1px solid var(--secondary-col);
+  outline: none;
+}

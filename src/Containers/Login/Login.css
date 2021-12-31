@@ -1,0 +1,31 @@
+/* Login Page */
+.login-box {
+  height: 427px;
+  width: 557px;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#LoginForm .form-row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 23px;
+}
+.login-password-row {
+  display: flex;
+}
+.login-password-row label,
+.login-password-row .forgot-pass {
+  flex-basis: 50%;
+}
+.login-password-row .forgot-pass {
+  display: flex;
+  justify-content: flex-end;
+}
+#LoginForm .form-extra-actions-row {
+  margin-top: 53px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

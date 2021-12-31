@@ -1,0 +1,54 @@
+/* Homepage */
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 61px;
+}
+.img-hero img {
+  height: 395px;
+  width: 622px;
+  border-radius: 20px;
+}
+.home-heading {
+  color: white;
+  font-size: 60px;
+  height: 144px;
+  width: 334px;
+}
+.text-hero button {
+  margin-top: 40px;
+}
+
+.why-us-card {
+  background-color: white;
+  width: 341px;
+  height: 192px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px var(--shadow-col);
+}
+.why-us-cards {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+.why-uscard-contents {
+  padding: 20px 24px 20px 30px;
+}
+.card-title {
+  color: var(--secondary-col);
+  width: 172px;
+  height: 53px;
+  margin-bottom: 29px;
+}
+.brand-pics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 111px;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 67px;
+}
+.brand-pic {
+  height: 40px;
+  width: 120px;
+}
