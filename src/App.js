@@ -1,8 +1,6 @@
 import "./App.css";
 import { Fragment } from "react";
-import Navbar from "./Containers/Navbar/Navbar";
-import PageContent from "./Containers/PageContent/PageContent";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./Components/Homepage/Homepage";
 import SignUp from "./Containers/SignUp/SignUp";
 import Login from "./Containers/Login/Login";
@@ -14,7 +12,6 @@ import AllJobs from "./Containers/AllJobs/AllJobs";
 function App() {
   return (
     <Fragment>
-      {/* <Navbar /> */}
       <Router>
         <Routes>
           <Route path="/" element={<Homepage />} />
@@ -26,7 +23,6 @@ function App() {
           <Route exact path="/all-jobs" element={<AllJobs />} />
         </Routes>
       </Router>
-      {/* <PageContent /> */}
     </Fragment>
   );
 }

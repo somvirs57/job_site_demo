@@ -6,15 +6,12 @@ import Navbar from "../Navbar/Navbar";
 import { Fragment } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useState, useRef } from "react";
-import { recruiterActions } from "../../Store/Index";
-import { useDispatch } from "react-redux";
 
 const isEmpty = (value) => value.trim() === "";
 
 const SignUp = () => {
   const navigate = useNavigate();
 
-  const dispatch = useDispatch();
 
   const signUpTypeHandler = (e) => {
     setSignUpType(e.target.value);
