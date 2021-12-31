@@ -2,7 +2,7 @@ import "./App.css";
 import { Fragment } from "react";
 import Navbar from "./Containers/Navbar/Navbar";
 import PageContent from "./Containers/PageContent/PageContent";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./Components/Homepage/Homepage";
 import SignUp from "./Containers/SignUp/SignUp";
 import Login from "./Containers/Login/Login";
